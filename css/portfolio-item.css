@@ -22,10 +22,6 @@ body {
   border-color: #4c4c4c;
 }
 
-.container {
-  overflow: scroll;
-}
-
 .card-img-top {
   height: 375px;
 }
@@ -48,8 +44,12 @@ body {
 }
 
 #icons {
-  margin-bottom: 20px;
-  margin-left: 446px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center
+    padding-bottom: 20px;
+/*  margin-bottom: 20px;*/
+/*  margin-left: 446px;*/
 }
 
 .navbar {
